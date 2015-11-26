@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Nov 19th, 2015 at 21:40
+# Last updated: Nov 25th, 2015 at 15:20
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -3616,6 +3616,7 @@
 0.0.0.0 ad.garantiarkadas.com
 0.0.0.0 adgardener.com
 0.0.0.0 ad.gazeta.pl
+0.0.0.0 ad-gb.mgid.com
 0.0.0.0 ad-gbn.com
 0.0.0.0 ad.ghfusion.com
 0.0.0.0 ad.goo.ne.jp
@@ -5950,6 +5951,7 @@
 0.0.0.0 cdn.go.pol.bbelements.com
 0.0.0.0 cdn.hadj7.adjuggler.net
 0.0.0.0 cdn.innovid.com
+0.0.0.0 cdn.komoona.com
 0.0.0.0 cdn.krxd.net
 0.0.0.0 cdn.mediative.ca
 0.0.0.0 cdn.merchenta.com
@@ -5962,6 +5964,7 @@
 0.0.0.0 cdn.stat.easydate.biz
 0.0.0.0 cdn.syn.verticalacuity.com
 0.0.0.0 cdn.tabnak.ir
+0.0.0.0 cdn.taboola.com
 0.0.0.0 cdn.trafficstars.com
 0.0.0.0 cdnt.yottos.com
 0.0.0.0 cdn.udmserve.net
@@ -7315,6 +7318,7 @@
 0.0.0.0 mercury.bravenet.com
 0.0.0.0 messagent.duvalguillaume.com
 0.0.0.0 messagia.adcentric.proximi-t.com
+0.0.0.0 metaapi.bulletproofserving.com
 0.0.0.0 meter-svc.nytimes.com
 0.0.0.0 metrics.natmags.co.uk
 0.0.0.0 metrics.sfr.fr
@@ -8375,6 +8379,7 @@
 0.0.0.0 s.tcimg.com
 0.0.0.0 st.marketgid.com
 0.0.0.0 stocker.bonnint.net
+0.0.0.0 storage.bulletproofserving.com
 0.0.0.0 storage.softure.com
 0.0.0.0 storage.trafic.ro
 0.0.0.0 streamate.com
