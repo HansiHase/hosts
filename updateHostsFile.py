@@ -90,7 +90,7 @@ numberOfRules   = 0
 
 def main():
 	promptForUpdate()
-	promptForExclusions()
+#	promptForExclusions()
 	mergeFile = createInitialFile()
 	removeOldHostsFile()
 	finalFile = removeDupsAndExcl( mergeFile )
@@ -98,7 +98,7 @@ def main():
 	updateReadme( numberOfRules )
 	printSuccess( 'Success! Your new hosts file has been prepared.\nIt contains ' + "{:,}".format( numberOfRules ) + ' unique entries.' )
 
-	promptForMove( finalFile )
+#	promptForMove( finalFile )
 
 # Prompt the User
 def promptForUpdate():
@@ -109,11 +109,11 @@ def promptForUpdate():
 		except:
 			printFailure( "ERROR: No 'hosts' file in the folder, try creating one manually" )
 
-	response = query_yes_no( "Do you want to update all data sources?" )
-	if ( response == "yes" ):
-		updateAllSources()
-	else:
-		print ( 'OK, we\'ll stick with what we\'ve  got locally.' )
+#	response = query_yes_no( "Do you want to update all data sources?" )
+#	if ( response == "yes" ):
+	updateAllSources()
+#	else:
+#		print ( 'OK, we\'ll stick with what we\'ve  got locally.' )
 
 def promptForExclusions():
 	response = query_yes_no( "Do you want to exclude any domains?\n" +
