@@ -12,5 +12,3 @@ if you wanna use it:
 * both need path adjustment in script (first variable(s))
 * either write a script to copy new file to /etc/hosts
 * or soft link from new file to /etc/hosts
-* `mergeIpv4Ipv6.sh` new file (hosts-ipv4-ipv6) will be in directory of updateHostFile.py
-* `updateHostsFileAndBuildIpv6.sh` new file (hosts) will be in directory you defined as workpath in the script
