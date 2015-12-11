@@ -18,7 +18,7 @@ echo 	"ipv4 hosts:"
 cat 	$H_MERGE | wc -l
 
 echo    "building ipv6 + ipv4 hostsfile"
-sort   	$H_ORIG | uniq | grep "^0" | sed "s/0.0.0.0/::/g" >> $H_MERGE
+sort   	$H_ORIG | uniq | grep "^0" | sed "s/0\.0\.0\.0/::/g" >> $H_MERGE
 
 echo    "ipv6 + ipv4 hosts"
 cat     $H_MERGE | wc -l
