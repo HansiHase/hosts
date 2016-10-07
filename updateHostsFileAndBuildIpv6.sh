@@ -8,7 +8,7 @@ H_MERGE=$WOPA/hosts-ipv4-ipv6	# the ipv6 and ipv4 smashed together file
 H_ORIG=$WOPA/hosts		# the original file containing 0.0.0.0 entries
 
 echo	"building base file"
-python	$WOPA/updateHostsFile.py
+python	$WOPA/updateHostsFile.py -a
 
 echo 	"building ipv4 hostsfile"
 echo 	"127.0.0.1 localhost" > $H_MERGE
